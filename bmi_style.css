@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #40A578;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #b30808;
+    background-color: #151515;
+}
+
+.content {
+    height: 400px;
+    width: 400px;
+    border: none;;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 25px;
+    display: flex;
+    background-color:#6F4E37;
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    margin: 20px;
+}
+.msg{
+    height: 30px;
+    width: 130px;
+    border: 2px solid black;
+    margin-left: 35%;
+    margin-top:-10%;
+    border-radius: 25px;
+    background-color:beige;
+    color: black;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+.msg_bmi{
+    height: 50px;
+    width: 150px;
+    
+    margin-left:35% ;
+    margin-top:20% ;
+    
+
+}
+div input{
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    height: 50px;
+width: 100px;
+margin-left: 35%;
+border-radius: 25px;
+border: none;
+background-color: darkgray;
+font-family:Arial, Helvetica, sans-serif;
+}
+@media(min-width:600px){
+    .content{
+        position: fixed;
+
+    }
+}
+.bmi_ht:active{
+    border:none;
+    outline: none;
+}
